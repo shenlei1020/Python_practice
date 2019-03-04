@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e0219ff4-e7df-4b81-832f-71c4db29f62c" name="remote_test" url="http://127.0.0.1">
+        <fileTransfer host="127.0.0.1" port="3000" rootFolder="/root/my_python" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" keepAliveTimeout="200000" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="3000" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
